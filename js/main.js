@@ -391,11 +391,6 @@ var LoaderModal = document.getElementById("loaderModal");
       // console.error(e)
     }
   }
-
-
-
-
-
   
   /**
    * Connect wallet button pressed.
@@ -435,8 +430,8 @@ var LoaderModal = document.getElementById("loaderModal");
         }
         
     });
-    //await refreshAccountData();
-	getData();
+    await refreshAccountData();
+
   }
   
   /**
