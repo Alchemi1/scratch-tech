@@ -49,7 +49,7 @@ $link-color: #aaaaaa;
 $font-family-base: Montserrat;
 $headings-font-family: Montserrat;
 $font-size-base: 0.8rem;
-$font-weight-normal: 300;
+$font-weight-normal: 400;
 $headings-line-height: 1.2;
 $lead-font-size: 1.30rem;
 $font-weight-light: 300;
@@ -140,6 +140,7 @@ $hr-border-color: rgba(map-get($theme-colors,"light"),.25);
 $table-accent-bg:               				rgba(map-get($theme-colors,"light"),.05);
 $table-inverse-bg:              				rgba(map-get($theme-colors,"light"),.5);
 $table-hover-bg:                				rgba(map-get($theme-colors,"light"),.1);
+$headings-font-weight: $font-weight-bold;
 
 @import 'bootstrap-4.1.3';
 
